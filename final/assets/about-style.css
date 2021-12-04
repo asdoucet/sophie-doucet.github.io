@@ -1,0 +1,29 @@
+#selfie-container {
+    overflow: hidden;
+    align-self: center;
+}
+#selfie {
+    width: 200px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: #162c8b;
+}
+#content {
+    
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+
+}
+
+#about {
+    
+    text-align: center;
+    color:#162c8b;
+}
+#name-desc {
+    font-family: 'Astloch', cursive;
+    text-align: center;
+    color:#162c8b;
+    color:#D95829;
+}

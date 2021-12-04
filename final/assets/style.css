@@ -1,0 +1,157 @@
+#header{
+    display: flex;  
+    font-family: 'Astloch', cursive;
+    font-size: 50px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+    width: auto;
+    height: 85px;
+    padding: 15px;
+    margin: -10px;
+    line-height: 0px;
+    text-decoration: none;
+    text-indent: 100px;
+}
+#header a {  
+    text-decoration: none;
+    color: #162c8b;
+}
+#header a:hover {
+    color: #D95829;
+}
+body {
+    background-color: #D2E0BF;
+    font-family: 'Cairo', sans-serif;
+    
+}
+#line {
+    height: 2px;
+    width: 100vw;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #D95829;
+    background-color: #9F9FBC;
+    background-color: #1b0826;
+    
+
+    background-color: #1b0826;
+    background-color: #162c8b;
+    
+
+}
+#line-container {
+    
+    margin: 0;
+    padding: 0;
+
+
+}
+#nav {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    width: 308px;
+    
+    
+    flex-wrap: wrap;
+    height: 308px;
+    
+
+}
+.nav-box {
+   
+    background-color: #162c8b;
+    width: 150px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #162c8b;
+    text-indent: 3px;
+    font-size: 20px;
+    height: 150px;
+    color: #D2E0BF;
+    text-decoration: none;
+
+}
+.nav-box:hover {
+    background-color: #D2E0BF;
+    color: #162c8b;
+
+}
+#preview {
+    
+
+    width: 50%;
+    height: 1000px;
+    overflow: hidden;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #162c8b;
+}
+#content{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+
+}
+.content-preview {
+    width: auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center ;
+    flex-wrap: wrap;
+
+
+}
+#preview img {
+    
+    margin: 10px;
+}
+#art img {
+    width: 300px;
+
+}
+#design img {
+    height: 300px;
+
+}
+#photo img {
+    width: 300px;
+
+}
+.hidden {
+    display: none;
+}
+
+.content-page {
+
+    
+    padding-top: 45px;
+    /* display: flex;
+    align-items: center ;
+    flex-wrap: wrap;
+    justify-content: space-evenly
+        flex-flow: row;
+    justify-content: space-between;
+    align-items: flex-start*/
+
+    
+    
+
+}
+/* art-page img{
+    max-height: 500px;
+    margin: auto;
+
+    
+}
+#photo-page img{
+    max-width: 600px;
+    max-height: 400px;
+    margin: auto;
+    height: auto;
+   
+    
+}
+*/
+
