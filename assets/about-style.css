@@ -1,6 +1,7 @@
 #selfie-container {
     overflow: hidden;
     align-self: center;
+    margin-top: 100px;
 }
 #selfie {
     width: 200px;
@@ -8,7 +9,7 @@
     border-width: 3px;
     border-color: #162c8b;
 }
-#content {
+#content-abt {
     
     display: flex;
     flex-direction: column;
