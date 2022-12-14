@@ -1,0 +1,459 @@
+#primary {
+    width: 100%;
+    border-right: 0 none;
+    }
+            #secondary {
+                display: none;
+            }
+    
+    .main {
+    width: 100%;
+    height: auto;
+    padding: 2em;
+    background-color: #003262;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    
+    }
+    .main p {font-size: 18px;}
+    
+    .main h2 {
+    color: white;
+    font-weight: 600;
+    text-align: center;
+    }
+    .main h1 {
+    color: white;
+    font-weight: 600;
+    text-align: center;
+    }
+    .main h3 {
+    color: white;
+    text-align: center;
+    
+    }
+    
+    .main-light {
+    color: black;
+    background-color: #FDB515;
+    
+    }
+    .main-light h2, h3 {
+    color: black;
+    }
+    .main-light h1 {
+    color: black;
+    
+    }
+    .main-light h3 {
+    color: black;
+    
+    }
+    
+    .text-highlight {
+    width:75%;
+    text-align: center;
+    }
+    .entry-header {
+    display:none;
+    }
+    
+    
+     .core {
+                width: 100%;
+                height: auto;
+                padding: 2em;
+                
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-direction: column;
+            }
+            
+            .job-card {
+                background-color: white;
+                color: black;
+                text-align: center;
+                font-size: 18px;
+                line-height: .8;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-direction: column;
+                margin: .5em;
+                background-color: #EEEEEE;
+                width: 10em;
+                height: 7em;
+                border-radius: .1em;
+            }
+                    .job-card:hover,
+            job-card:active {
+                background-color: #CFDD45;
+                color: black;
+                transition-delay: .05s;
+    
+            }
+            .job-card h2 {
+            font-size: 18px;
+            color: black;
+            }
+            .job-card p {
+            line-height: 1;
+            }
+            
+    
+            .job-card:hover p {
+                color: black;
+            }
+    
+            .job-card:active p {
+                color: black;
+            }
+    
+            .job-card:hover h2 {
+                color: black;
+                
+            }
+            
+    
+            .job-card:active h2 {
+                color: black;
+            }
+            .button {
+                cursor: pointer;
+                background-color: #D9661F;
+                padding:15px;
+                border-radius: 3px;
+    text-align: center;
+    margin: 1em;
+    font-size: 20px;
+            }
+                    .card-section {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-direction: row;
+                width: 100%;
+                overflow: auto;
+                flex-wrap: wrap;
+            }
+            
+                    .card {
+                width: 11em;
+                height: 6.28em;
+                background-color: white;
+                color: black;
+                text-align: center;
+                font-size: 18px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-direction: column;
+                margin: 2em; 
+                margin-top: 0em; 
+                border-radius:.5em;      
+            }
+            
+            #rankings h2 {
+            font-size: 35px;
+            text-shadow: none;
+            line-height: .6;
+            
+            
+            }
+            #rankings {
+            line-height: 1;
+            font-size: 14px;
+            }
+        
+            #rankings .card {
+            margin: 1em;
+            }
+            
+    .button h2 {font-weight: 400;
+    font-size: 30px;}
+    
+    .button:hover {background-color: #00B0DA;
+    text-decoration: underline;}
+    
+    #header {
+    background-image: url('http://msse.berkeley.edu/wp-content/uploads/2022/07/vlsb_5682-scaled.jpeg');
+    box-shadow:inset 0 0 0 2000px rgba(0, 50, 98, 0.55);
+    background-size: auto 120%;
+    }
+    
+    
+    #berkeley-quality {
+    background-color: #FDB515;
+    
+    color: #003262;
+    }
+    #berkeley-quality h2 {
+    color: #003262;
+    }
+    
+    #industries {
+    background-color: #EEEEEE;
+    }
+    #global {background-image: url('http://msse.berkeley.edu/wp-content/uploads/2022/08/36022366223_4583ecb311_o.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-color: #000000;
+    box-shadow:inset 0 0 0 2000px rgba(0, 0, 0, 0.55);
+    
+    }
+    #challenges {
+                display: flex;
+         
+                justify-content: center;
+                flex-direction: row;
+                flex-wrap: wrap; 
+    }
+    .challenge {
+    width: 20em;
+    margin: 1em;
+    }
+    #buttons {
+    background-color: #003262;
+    }
+    #transform{
+    background-image: url('http://msse.berkeley.edu/wp-content/uploads/2022/07/20190311_DriverlessCars_AVL_0595-scaled.jpg');
+    background-size: auto 200%;
+    padding-top: 5em;
+    padding-bottom: 5em;
+    box-shadow:inset 0 0 0 2000px rgba(0, 0, 70, 0.35);
+    }
+    
+    #beyond-science {
+    background-color: #FDB515;
+    }
+    
+    #center-berk {
+    border-radius: .1em;
+    }
+    
+    #berk {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: start;  
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 2em;
+    
+    }
+    
+    
+    .berk-feat {
+    width: 29em;
+    min-height: 25em;
+    
+    display: flex;
+    justify-content: center;    
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    text-align: center;
+    }
+    
+    .industry {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: .5em;
+    font-size: 24px;
+    font-weight: 600;
+    }
+    
+    .non-science {
+    font-size: 18px;
+    }
+    .non-science .value {
+    width: 15em;
+    height: 8em;
+    border-radius: .5em;
+    }
+    
+    .non-science .value h2 {
+    font-size: 28px;
+    }
+    
+    .value {width: 10em;
+    height: 10em;
+    border-radius: 50%;
+    background-color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: .5em;
+    color: white;
+   
+    box-shadow:inset 0 0 0 2000px rgba(0, 0,30 , 0.35);
+    }
+    
+    .value h2 {
+    color:white; 
+    font-weight: 600;
+    font-size: 45px;
+    }
+    .value p {
+    font-size: 24px;
+    font-weight: 600;
+    }
+    #non-science value {
+    border-radius: 20px;
+    }
+    #buttons {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: start;  
+    flex-direction: row;
+    }
+    
+    
+    
+    
+    .berk-blue {
+    color:#003262;
+    }
+    .berk-blue p {
+    color:#003262;
+    }
+    .berk-blue h2 {
+    color:#003262;
+    }
+    .berk-blue h3 {
+    color:#003262;
+    }
+    .berk-blue h1 {
+    color:#003262;
+    }
+    .source {
+    color: #646464;
+    font-size: 14px;
+    text-align: center;
+    }
+ 
+    .concepts {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    }
+    
+    .concept {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    font-size: 18px;
+    width:100%;
+    margin: 1em;
+    gap: 2em;
+    }
+    
+    
+    .concept-img{
+    width: 25em;
+    height: 15em;
+    
+    
+    
+    border-radius: .5em;
+    
+    }
+    
+    .concept-desc {
+    width: 25em;
+    height: 1em;
+    height: auto;
+    text-align: left;
+    }
+    .concept-desc h2 {
+    text-align: right;
+    }
+    
+    
+    .button:hover {background-color: #00B0DA;
+    text-decoration: underline;}
+    a:hover{text-decoration:none;}
+    
+        @media only screen and (max-width:600px) {
+            .icon {float:left;}
+                
+                .skill {
+                float:left;
+                    overflow:auto;}
+            .concept {
+            flex-direction: column;
+            }		
+            .concept-img {
+            width: 18em;
+            height: 7em;
+            border-radius: .1em;
+            
+            }
+            .concept-desc {
+            width: 95%;
+            height: auto;
+            margin-left: 1em;
+            }
+            
+            #global {
+            background-size: 500%;
+            
+            }
+            #header {
+            background-size: 275%;
+            }
+            #transform {
+            background-size: 450%;
+            }
+            .berk-feat {
+    width: 20em;}
+    #buttons { flex-direction: column;
+    justify-content: center;}
+        .reverse {
+        flex-direction: column-reverse;
+        }}
+        
+                
+            .news {
+                background-color: white;
+                color: black;
+                text-align: center;
+                font-size: 18px;
+                line-height: 1;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-direction: column;
+                margin: 1em;
+                background-color: #EEEEEE;
+                width: 15em;
+                height: 7em;
+                border-radius: .1em;
+            }
+                    .news:hover,
+            .news:active {
+                background-color: #CFDD45;
+                color: black;
+                transition-delay: .05s;
+    
+            }
+            .news h2 {
+            font-size: 18px;
+            color: black;
+            }
+            .news p {
+            line-height: 1;
+            }
+            
+    
